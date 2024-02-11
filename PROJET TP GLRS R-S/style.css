@@ -1,0 +1,491 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    --primary:rgb(37, 229, 213) ;
+}
+
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+
+
+
+
+/*** NAVBAR ***/
+
+.navbar-nav {
+
+  color: #91bfc1cf;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+
+  
+}
+
+
+
+
+.navbar-brand img {
+
+  word-spacing: normal;
+}
+
+
+.nav-link {
+  
+
+  color: #c19191;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+  
+
+}
+nav ul li a {
+  color: #c19191;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  background-color: #0bdfe2;
+}
+
+
+.nav-items a {
+
+  color: black;
+  background-color: black;
+}
+
+
+/*** NAVBAR FINNNNNNNNNNNNNN ***/
+
+
+
+
+/*** NBA class ***/
+.nba {
+
+    text-align: center;
+
+}
+
+.nba h1{
+
+    font-size: 50px;
+    color: rgb(255, 250, 250);
+    font-weight: 600;
+}
+
+.nba span {
+
+    font-size: 50px;
+    color: rgb(8, 255, 255);
+}
+
+.nba a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px ;
+
+    background-color: aqua;
+
+
+}
+
+
+/*** NBA FINNNNNNNNNNN ***/
+
+/*** Arriere plan video ***/
+.retour-video {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position:  absolute;
+    right: 0;
+    bottom: 0;
+    z-index:  -1;
+
+    min-width: 100%;
+	min-height: 100%;
+}
+@media (max-aspect-ratio: 16/9) {
+  .retour-video {
+    width: auto;
+    height: auto;
+  }
+
+
+  @media (min-aspect-ratio: 16/9) {
+
+    .retour-video {
+      width: 100%;
+    height: auto;
+    }
+  }
+}
+
+
+/*** Arriere plan video FInnnnnnnnnnnnnn ***/
+
+
+
+/*** Paragraphe signe pppppppppp  ***/
+
+p {
+  
+  color: #fff;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+/*** Boutton ***/
+    .btn
+{
+
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px ;
+
+    background-color: aqua;
+
+}
+
+/*** FIN BOUTTON ***/
+
+
+/*** Les HHHHHHHHHHHHHHHHHHHH ***/
+.h11 {
+
+    color: aqua;
+}
+   
+
+.h55 {
+
+
+    color: aqua;
+}
+
+
+
+
+.h1s {
+
+  color: #ffffff;
+
+ 
+
+ font-size:  40px;
+
+ font-family: 'Courier New', Courier, monospace;
+}
+
+
+   
+   /*** HHHHHHH finnnnnnnnnnnnnnnn***/
+
+
+/* Resolution d'ecran */
+
+/* CSS pour tablettes */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 18px;
+  }
+
+  h1 {
+      font-size: 22px;
+  }
+
+  p {
+      font-size: 14px;
+  }
+}
+
+/* CSS pour smartphones */
+@media screen and (max-width: 580px) {
+  body {
+      font-size: 12px;
+  }
+
+  h1 {
+      font-size: 10px;
+  }
+
+  .p-raf p {
+      font-size: 12px;
+  }
+}
+
+ /* Fin Resolution d'ecrannnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn */
+
+
+ 
+/* Class container*/
+.container {
+  width: 100%;
+  margin: auto;
+  color: rgb(66, 212, 212);
+  background-color: #08010192;
+
+}
+
+.contaner {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 20x 20px 20px 20px;
+
+}
+
+
+/* Autres Class */
+.small {
+
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  border: 1px solid #fff;
+  padding: 14px 50px;
+  border-radius: 30px;
+  margin-top: 20px ;
+
+  background-color: aqua;
+  
+}
+
+
+
+
+
+.pser {
+  color: #000000;
+}
+
+
+/* Fin Autre  Classssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+/* Section Services*/
+
+
+
+.service-text::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background: var(--primary);
+  opacity: 0;
+  transition: .5s;
+  color: #0bdfe2;
+  background-color: #000000;
+}
+
+.service-item:hover .service-text::before {
+  height: 100%;
+  opacity: 1;
+}
+
+.service-text * {
+  position: relative;
+  transition: .5s;
+  z-index: 1;
+}
+
+.service-item:hover .service-text * {
+  color: #09eded !important;
+}
+
+
+
+
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+
+/* Secteur SERVICE Finnnnnnnnnnnnnnnnn*/
+
+
+/*** avis ***/
+.testimonial-carousel .owl-item img {
+  width: 100px;
+  height: 100px;
+  
+}
+
+.testimonial-carousel .owl-nav {
+  
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+}
+
+
+
+
+
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  border: 2px solid var(--primary);
+  border-radius: 50px;
+  font-size: 18px;
+  transition: .5s;
+  
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+  color: #FFFFFF;
+  background: var(--primary);
+
+  
+}
+
+
+
+
+
+/* Section directeur*/
+.container-D {
+  max-width: 600px;
+  background: #0000007d;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.container-D::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container-D h2 {
+  margin-bottom: 10px;
+}
+.container-D p {
+  line-height: 1.4;
+}
+.d {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  float: left;
+  shape-outside: margin-box;
+  margin: 0 20px 5px 0;
+}
+
+/* Section directeur finnnnnnnnnnnnnnnnnnnnnnnnnnnnn*/
+
+
+/* Footer*/
+
+footer {
+  width: 100%;
+  background-color: #222;
+  padding: 10px 0;
+  font-size: 14px;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+}
+footer p span {
+  color: #29d9d5;
+}
+.responsive-menu {
+  display: none;
+}
+
+
+
+.c{
+
+  
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+  
+}
+
+
+.hm {
+  color: #fff;
+
+}
+
+.hm span {
+
+
+  color: #09eded;
+}
+
+.cs {
+  color: #09eded;
+}
